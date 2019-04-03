@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		482AAE1422545DFE00AA62CE /* PickerViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482AAE1322545DFE00AA62CE /* PickerViewDataSource.swift */; };
 		49E88AB821B81446000795FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E88AB721B81446000795FE /* AppDelegate.swift */; };
 		49E88ABA21B81446000795FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E88AB921B81446000795FE /* ViewController.swift */; };
 		49E88ABD21B81446000795FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E88ABB21B81446000795FE /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		482AAE1322545DFE00AA62CE /* PickerViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewDataSource.swift; sourceTree = "<group>"; };
 		49E88AB421B81446000795FE /* UIPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E88AB721B81446000795FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49E88AB921B81446000795FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				49E88AB721B81446000795FE /* AppDelegate.swift */,
 				49E88AB921B81446000795FE /* ViewController.swift */,
+				482AAE1322545DFE00AA62CE /* PickerViewDataSource.swift */,
 				49E88ABB21B81446000795FE /* Main.storyboard */,
 				49E88ABE21B81447000795FE /* Assets.xcassets */,
 				49E88AC021B81447000795FE /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49E88ABA21B81446000795FE /* ViewController.swift in Sources */,
+				482AAE1422545DFE00AA62CE /* PickerViewDataSource.swift in Sources */,
 				49E88AB821B81446000795FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

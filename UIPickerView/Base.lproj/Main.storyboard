@@ -26,7 +26,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="cancel"/>
                                 <connections>
-                                    <action selector="cancel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZRa-Rb-4jI"/>
+                                    <action selector="tapCancelButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gyd-hY-i4v"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBn-XS-QwF">
@@ -37,7 +37,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="done"/>
                                 <connections>
-                                    <action selector="done:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FLm-g1-Spf"/>
+                                    <action selector="tapDoneButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uxz-Zy-F2K"/>
                                 </connections>
                             </button>
                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1UI-BW-LHb">
@@ -73,8 +73,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="button_cancel" destination="qYC-K6-XIw" id="AvS-Ki-HdJ"/>
-                        <outlet property="button_done" destination="ZBn-XS-QwF" id="rXE-qr-xqH"/>
+                        <outlet property="cancelButton" destination="qYC-K6-XIw" id="nHf-7V-Cjh"/>
+                        <outlet property="doneButton" destination="ZBn-XS-QwF" id="gp6-hx-Byo"/>
                         <outlet property="label" destination="1UI-BW-LHb" id="2wK-gw-jrP"/>
                         <outlet property="picker" destination="pWk-eS-h5E" id="LOV-G7-tTQ"/>
                     </connections>
