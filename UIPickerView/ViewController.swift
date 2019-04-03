@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class ViewController: UIViewController, UIPickerViewDelegate {
+final class ViewController: UIViewController {
     
     @IBOutlet weak private var label: UILabel!
     @IBOutlet weak private var cancelButton: UIButton!
@@ -16,36 +16,17 @@ final class ViewController: UIViewController, UIPickerViewDelegate {
     @IBOutlet weak var picker: UIPickerView!
     let dataSource = PickerViewDataSource()
     
-    //let array = ["赤","青","黄","緑"]
-    //var color = ""
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         picker.isHidden = true
         cancelButton.isHidden = true
         doneButton.isHidden = true
         
-        picker.delegate = self
+        picker.delegate = dataSource
         picker.dataSource = dataSource
         picker.selectRow(0, inComponent: 0, animated: true)
     }
-    /*
-     func numberOfComponents(in pickerView: UIPickerView) -> Int {
-     return 1
-     }
-     
-     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-     return array.count
-     }
-     
-     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-     return array[row]
-     }
-     
-     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-     color = array[row]
-     }
-     */
+    
     @IBAction private func tapLabel(_ sender: UILabel) {
         picker.isHidden = false
         cancelButton.isHidden = false

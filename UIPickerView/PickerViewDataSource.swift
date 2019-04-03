@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class PickerViewDataSource: NSObject, UIPickerViewDataSource {
+class PickerViewDataSource: NSObject, UIPickerViewDataSource, UIPickerViewDelegate {
     let array = ["赤","青","黄","緑"]
     var color = ""
     
